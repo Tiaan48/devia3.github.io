@@ -170,6 +170,12 @@ hr.small {
 
 /* Services */
 
+}
+.section {
+    height: 60px;
+    background-color: #8980fe;
+}
+
 .services {
     padding: 50px 0;
 }
