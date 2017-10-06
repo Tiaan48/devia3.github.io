@@ -201,7 +201,7 @@ hr.small {
   position: absolute;
   content: " ";
   width: 3px;
-  background-color: #eeeeee;
+  background-color: #8980fe;
   left: 50%;
   margin-left: -1.5px;
 }
@@ -243,19 +243,19 @@ hr.small {
   left: 0px;
 }
 .timeline .timeline-item .timeline-badge.primary {
-  background-color: #1f9eba;
+  background-color: #1fa531;
 }
 .timeline .timeline-item .timeline-badge.info {
-  background-color: #5bc0de;
+  background-color: #1fa531;
 }
 .timeline .timeline-item .timeline-badge.success {
-  background-color: #59ba1f;
+  background-color: #8980fe;
 }
 .timeline .timeline-item .timeline-badge.warning {
-  background-color: #d1bd10;
+  background-color: #8980fe;
 }
 .timeline .timeline-item .timeline-badge.danger {
-  background-color: #ba1f1f;
+  background-color: #8980fe;
 }
 .timeline .timeline-item .timeline-panel {
   position: relative;
