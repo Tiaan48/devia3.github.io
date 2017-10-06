@@ -199,7 +199,7 @@ hr.small {
   position: absolute;
   content: " ";
   width: 3px;
-  background-color: #eeeeee;
+  background-color: #8980fe;
   left: 50%;
   margin-left: -1.5px;
 }
@@ -226,7 +226,7 @@ hr.small {
   top: 18px;
   left: 50%;
   margin-left: -25px;
-  background-color: #fff;
+  background-color: #8980fe;
   border: 3px solid #fff;
   z-index: 100;
   border-top-right-radius: 50%;
@@ -261,7 +261,7 @@ hr.small {
   float: left;
   right: 16px;
   border: 1px solid #c0c0c0;
-  background: #ffffff;
+  background: #8980fe;
   border-radius: 2px;
   padding: 20px;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
