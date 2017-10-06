@@ -201,7 +201,7 @@ hr.small {
   position: absolute;
   content: " ";
   width: 3px;
-  background-color: #8980fe;
+  background-color: #ffffff;
   left: 50%;
   margin-left: -1.5px;
 }
@@ -228,7 +228,7 @@ hr.small {
   top: 18px;
   left: 50%;
   margin-left: -25px;
-  background-color: #7c7c7c;
+  background-color: #8980fe;
   border: 3px solid #ffffff;
   z-index: 100;
   border-top-right-radius: 50%;
@@ -246,10 +246,10 @@ hr.small {
   background-color: #1fa531;
 }
 .timeline .timeline-item .timeline-badge.info {
-  background-color: #1fa531;
+  background-color: #8980fe;
 }
 .timeline .timeline-item .timeline-badge.success {
-  background-color: #8980fe;
+  background-color: #1fa531;
 }
 .timeline .timeline-item .timeline-badge.warning {
   background-color: #8980fe;
