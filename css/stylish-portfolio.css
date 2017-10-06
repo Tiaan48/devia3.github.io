@@ -199,7 +199,7 @@ hr.small {
   position: absolute;
   content: " ";
   width: 3px;
-  background-color: #eeeeee;
+  background-color: #8980fe;
   left: 50%;
   margin-left: -1.5px;
 }
@@ -226,7 +226,7 @@ hr.small {
   top: 18px;
   left: 50%;
   margin-left: -25px;
-  background-color: #8980fe;
+  background-color: #ffffff;
   border: 3px solid #ffffff;
   z-index: 100;
   border-top-right-radius: 50%;
@@ -241,7 +241,7 @@ hr.small {
   left: 0px;
 }
 .timeline .timeline-item .timeline-badge.primary {
-  background-color: #1f9eba;
+  background-color: #8980fe;
 }
 .timeline .timeline-item .timeline-badge.info {
   background-color: #5bc0de;
