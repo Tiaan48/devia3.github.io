@@ -179,9 +179,9 @@ hr.small {
 /* Services */
 
 .services {
-    background-color: #2f2e30;
+    background-color: #8980fe;
     padding: 50px 0; 
-    font: #8980fe;
+    
 }
 
 .service-item {
@@ -193,7 +193,7 @@ hr.small {
 .timeline,
 .timeline-horizontal {
   list-style: none;
-  background-color: #8980fe;
+  background-color: #000000;
   padding: 20px;
   position: relative;
 }
