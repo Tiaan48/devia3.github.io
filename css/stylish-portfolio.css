@@ -187,46 +187,57 @@ hr.small {
 
 /* Callout */
 
-#cd-timeline {
+.cd-horizontal-timeline .events-content {
   position: relative;
-  padding: 2em 0;
-  margin-top: 2em;
-  margin-bottom: 2em;
 }
-#cd-timeline::before {
-  /* this is the vertical line */
-  content: '';
+.cd-horizontal-timeline .events-content li {
   position: absolute;
+  z-index: 1;
+  width: 100%;
+  left: 0;
   top: 0;
-  left: 18px;
-  height: 100%;
-  width: 4px;
-  background: #d7e4ed;
+  transform: translateX(-100%);
+  opacity: 0;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-in-out;
 }
-
-/* timelinestylePortfolio */
-
-.cssanimations .cd-timeline-img.is-hidden {
-  visibility: hidden;
+.cd-horizontal-timeline .events-content li.selected {
+  /* visible event content */
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+  transform: translateX(0);
 }
-.cssanimations .cd-timeline-img.bounce-in {
-  visibility: visible;
-  animation: cd-bounce-1 0.6s;
+.cd-horizontal-timeline .events-content li.enter-right, 
+.cd-horizontal-timeline .events-content li.leave-right {
+  animation-name: cd-enter-right;
 }
- 
-@keyframes cd-bounce-1 {
+.cd-horizontal-timeline .events-content li.enter-left, 
+.cd-horizontal-timeline .events-content li.leave-left {
+  animation-name: cd-enter-left;
+}
+.cd-horizontal-timeline .events-content li.leave-right, 
+.cd-horizontal-timeline .events-content li.leave-left {
+  animation-direction: reverse;
+}
+@keyframes cd-enter-right {
   0% {
     opacity: 0;
-    transform: scale(0.5);
+    transform: translateX(100%);
   }
- 
-  60% {
-    opacity: 1;
-    transform: scale(1.2);
-  }
- 
   100% {
-    transform: scale(1);
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+@keyframes cd-enter-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
   }
 }
 
