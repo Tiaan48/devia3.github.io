@@ -366,12 +366,12 @@ hr.small {
 
 .portfolio {
     width: 100%;
-    padding: 50px 0;
+    padding: 0;
     background-color: #ffffff;
 }
 
 .portfolio-item {
-    margin-bottom: 30px;
+    margin-bottom: 0;
 }
 
 .img-portfolio {
@@ -387,11 +387,11 @@ hr.small {
 .call-to-action {
     width: 100%;
     background-color: #8980fe;
-    padding: 50px 0;
+    padding: 0;
 }
 
 .call-to-action .btn {
-    margin: 10px;
+    margin: 0;
 }
 
 /* Map */
