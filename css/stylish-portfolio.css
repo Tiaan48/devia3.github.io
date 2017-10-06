@@ -366,12 +366,12 @@ hr.small {
 
 .portfolio {
     width: 100%;
-    padding: 0;
+    padding: 50px;
     background-color: #ffffff;
 }
 
 .portfolio-item {
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 
 .img-portfolio {
@@ -387,7 +387,7 @@ hr.small {
 .call-to-action {
     width: 100%;
     background-color: #8980fe;
-    padding: 0;
+    padding: 50px;
 }
 
 .call-to-action .btn {
