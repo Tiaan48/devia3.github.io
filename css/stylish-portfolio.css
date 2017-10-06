@@ -10,13 +10,13 @@ html,
 body {
     width: 100%;
     height: 100%;
-    background-color: #2f2e30;
+    background-color: #ffffff;
 } 
 
 }
 section {
     height: 60px;
-    background-color: #8980fe;
+    background-color: #ffffff;
 }
 
 body {
@@ -365,7 +365,6 @@ hr.small {
 /* Portfolio */
 
 .portfolio {
-    max-width: 950px;
     padding: 50px 0;
     background-color: #ffffff;
 }
@@ -385,7 +384,6 @@ hr.small {
 /* Call to Action */
 
 .call-to-action {
-    max-width: 950px;
     background-color: #8980fe;
     padding: 50px 0;
 }
